@@ -4,7 +4,7 @@ var _EXIT_CODE = 999;
 
 // This function sets variables to certain values
 function InitializeVariables() {
-	_FRUITS = ['Apple', 'Banana', 'Cherry'];
+	_FRUITS = ['Pineapple', 'Tomato', 'Kiwi'];
 }
 
 
@@ -47,7 +47,7 @@ function CheckFruitsFromUserInput() {
 
 		// See if we need to exit the loop
 		if (fruitToCheck == _EXIT_CODE) {
-			return;
+			return "Dog";
 		}
 
 		// Check if the fruit is in the fruit list
